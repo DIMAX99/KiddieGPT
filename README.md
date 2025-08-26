@@ -173,14 +173,18 @@ npm install
 3. Configure environment variables:
 
 ```bash
-DATABASE_URL=your_postgresql_url
+NEXT_PUBLIC_DATABASE_URL=your_postgresql_url
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 REPLICATE_API_TOKEN=your_replicate_api_key
-GEMINI_API_KEY=your_gemini_api_key
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=your_paypal_client_id
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_emailjs_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
-PAYPAL_CLIENT_ID=your_paypal_client_id
-PAYPAL_CLIENT_SECRET=your_paypal_client_secret
+PAYPAL_CLIENT_SECRET=your_paypal_client_secret_key
 ```
 
 4. Run the development server:
